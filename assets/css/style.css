@@ -1,0 +1,657 @@
+/*==========================
+========= Common CSS ===========
+============================*/
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: white;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: myfont;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.row{
+    margin-right: -10px;
+    margin-left: -10px;
+}
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url('../font/SolaimanLipi.ttf');
+ }
+ 
+ a:link,
+ a:visited {
+     text-decoration: none;
+     cursor: pointer;
+     color: black;
+ }
+
+ h5,h6,h4,h3{
+    font-size: 18px;
+}
+p{
+    font-size: 14px;
+}
+
+
+ /*==========================
+========= Header Section ===========
+============================*/
+
+
+
+.social_network i{
+    font-size: 25px;
+    padding: 4px;
+}
+
+.date{
+    font-size: 10px;
+}
+.header_logo{
+    text-align: center;
+}
+.header_right a{
+    font-size: 14px;
+}
+.header_right{
+    text-align: right;
+    margin-top: 20px;
+}
+
+/*==========================
+=========   nap var ===========
+============================*/
+
+.Section-Nav{
+    background-color: #ECECEC;
+    text-align: center;
+}
+
+.nav_list .header_hover_bottom_menu a{
+    color: black;
+    float: left;
+}
+
+.nav_list li a{
+   color: black;
+   font-weight: bold;
+   font-size: 14px;
+}
+
+.header_li ul{
+   display: flex;
+   width: max-content;
+   background: #ECECEC;
+}
+
+
+.header_li ul li{
+  padding: 10px;
+
+}
+.navbar{
+   margin-top: 20px;
+}
+
+.nav_list li:hover{
+   background: rgb(141, 140, 140);
+   display: inline-block;
+}
+
+
+
+.header_li{
+   position: relative;
+}
+
+
+.header_hover_bottom_menu{
+   position: absolute;
+   display: none;
+   
+
+}
+
+#src_icon{
+   cursor: pointer;
+   margin-left:5px;
+   margin-top: 13px;
+
+}
+
+.input-group-addon{
+   padding: 10px;
+   font-size: 20px;
+}
+
+
+/*==========================
+=========   homeTop ===========
+============================*/
+
+.leading_news img{
+    width: 100%;
+}
+
+.national img{
+    width: 100%;
+}
+
+.politics img{
+    width: 100%;
+}
+.country img{
+    width: 100%;
+}
+
+.main-lead{
+    position:relative;
+}
+.main-lead-title{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    color: #fff;
+    z-index:9;
+}
+
+.leadNews {
+    background: linear-gradient(to bottom, rgba(10, 10, 10, 0) 0%, rgb(0, 0, 0) 60%);
+    display: block;
+}
+.leadNews p{
+     margin-left: 5px;
+     margin-bottom: 2px;
+}
+.leadNews h5{
+    font-size: 20px;
+    margin: 5px 15px;
+
+}
+.sub_leadNews{
+    background: linear-gradient(to bottom, rgba(10, 10, 10, 0) 0%, rgb(0, 0, 0) 60%);
+    display: block;
+}
+.sub_leadNews p{
+    font-size: 12px;
+    margin: 5px 2px;
+    bottom: 0%;
+}
+
+.heading_news p{
+    font-size: 26px;
+    color: black;
+    padding-left:20px;
+    font-weight: bold;
+    border-left: solid;
+    border-width: 15px;
+    background: linear-gradient(to right, rgb(255, 255, 255) 20%, #DEDEDE 20%);
+}
+
+
+
+
+.short_news p{
+    padding-left: 15px;
+}
+
+
+.fa-play-circle{
+    background: rgb(243, 3, 23);
+    width: 100%;
+    height: 40px;
+    padding-top: 12px;
+    font-size: 16px;
+    color: white;
+    font-weight: normal;
+}
+
+.live_video i{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: #fff;
+    background:rgb(28, 2, 255);
+    height: 40px;
+    width: 40px;
+    padding: 11px 15px;
+    border-radius: 50%;
+}
+
+.video_section{
+    border: solid;
+    border-color: rgb(125, 128, 128);
+    padding: 3px;
+}
+.video_section img{
+    width: 100%;
+}
+
+
+/*=========================
+================tap bar======
+=========================*/
+
+.tab_bar_block_new ul{
+    display:table;
+    width: 100%;
+    margin:0;
+    border-bottom: 2px solid #030303;
+    background: #ececec;
+}
+
+.tab_bar_block_new ul > li{
+    padding: 3px;
+    position:relative; 
+    display: table-cell; 
+    line-height: 25px;
+    font-size:16px;
+    color:#000;
+    width:50%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.headline p.r_logo{
+    float: left;
+}
+.tab_bar_block_new ul > li.active{
+    background: #000000;
+    color: #fff;
+}
+
+
+#test1{ 
+    height:270px; 
+    overflow:auto;
+}
+
+#mostview1{ 
+    height:270px;
+    overflow:auto;
+}
+
+#popular_list_block1{
+    display: none;
+}
+
+.border-box img{
+    position:relative;
+}
+
+.editor_picks_list{
+    border-bottom:1px solid #ccc;
+    display: table;
+    width: 100%; 
+    border-bottom: 1px solid #ccc;
+    padding-bottom:10px;
+    background:#fff;
+    padding:3px 10px;
+}
+
+.list_display_block1 .editor_picks_list:last-child{
+    margin: 0px 0 0 0; 
+}
+
+.editor_picks_list > a{
+    font-size:15px;
+}
+
+.editor_picks_list > a > div{
+    display: table-cell; 
+    vertical-align: middle;
+}
+
+.editor_picks_list > a > div.img{
+    background: #f7f7f7;
+    width: 90px;
+    height: 60px;
+    text-align: center;
+}
+
+.editor_picks_list > a > div.img:hover{
+    opacity:0.9;
+}
+.editor_picks_list > a > div.img > i{
+    font-size: 24px;
+    color: #eee;
+}
+
+.editor_picks_list > a > div.headline > p{
+    font-size: 15px;
+    line-height: 20px; 
+    padding: 0 0px; 
+    margin:0; 
+    color:#000;
+}
+.editor_picks_list > a > div.headline > p:hover{
+    color:#090088;
+}
+
+
+
+/*=========================
+================home top side task======
+=========================*/
+
+
+.main-sompakidiyo{
+    text-align: center;
+    border-bottom-style: dashed;
+}
+.sompakidiyo_news{
+    text-align: center;
+    border-bottom-style: dashed;
+}
+
+.e-paper img{
+    width: 100%;
+    height: 300px;
+}
+
+
+.e-paper{
+    box-shadow:0px 0px 5px 2px #ccc; 
+    height: auto;
+    overflow: hidden;
+}
+.e-paper p{
+    color: #d20500;
+    text-align: center;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 10px 20px;
+    border-bottom:4px solid #eee;
+}
+.prayer_time img{
+    width: 100%;
+    height: 100px;
+    padding-top: 20px;
+}
+.prayer_name p{
+    width: 100%;
+    background-color: #009C8D;
+    color: white;
+    font-size: 12px;
+    margin: 3px;
+    border: white;
+    text-align: center;
+}
+.prayerTime p{
+    width: 100%;
+    background-color: #D60F0F;
+    color: white;
+    font-size: 12px;
+    margin: 3px;
+    border: white;
+    text-align: center;
+}
+
+
+.form select{
+  width: 70%;
+  border: solid;
+  border-radius: 100px;
+  background-color: #fffbfb;
+  margin-left: 15%;
+}
+.from-box{
+    text-align: center;
+    border-style: dashed;
+}
+.from-box p{
+    font-size: 19px;
+    text-align: center;
+    background:#C82A2A;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+}
+input[type=button]{
+    width: 80%;
+    background-color: #009E3F;
+    font-weight: bold;
+}
+
+.international img{
+    width: 100%;
+}
+
+.sports img{
+    width: 100%;
+}
+
+.media_news img{
+    width: 100%;
+}
+.advertise img{
+    width: 100%;
+}
+
+.prayer_time img{
+    width: 100%;
+}
+
+
+.international img{
+    width: 100%;
+}
+
+
+<div class="col-6">
+<div class="card">
+  <img class="img-fluid" src="./assets/img/body/Feature/5.png">
+  <div class="card-body">
+    <div class="row">
+     <div class="col-5">
+      Convallis odo arcused gittis. Suspendisse 
+     </div>
+     <div class="col-7">
+        <h5>$16.00</h5>
+        <a href="#"><img class="img-fluid" src="./assets/img/body/Feature/Product Details.png">
+        </a>
+     </div>
+    </div>
+  </div>
+</div>
+</div>
+
+.sports img{
+    width: 100%;
+}
+
+.entertainment img{
+    width: 100%;
+}
+
+/*=========================
+============ video ======
+=========================*/
+.video img{
+    width: 100%;
+}
+.video_gallery{
+     background:#EBEBEB;
+}
+
+.video_icon{
+    top: 50%;
+    left: 40%;
+    font-size: 70px;
+    color: #fffefe;    
+}
+.video_sub-icon{
+    top: 10%;
+    left: 40%;
+    font-size: 50px;
+    color:  #fffefe;
+}
+
+.video_sub_icon{
+    top: 45%;
+    left: 40%;
+    font-size: 50px;
+    color: #fffefe;
+}
+
+.video_s_icon{
+    top: 80%;
+    left: 40%;
+    font-size: 50px;
+    color: #fffefe;
+}
+
+.box_news img{
+    width: 100%;
+}
+/*=========================
+============ photo ======
+=========================*/
+.photo img{
+    width: 100%;
+}
+.photo{
+  background: #EBEBEB;  
+}
+.cam_icon {
+    top: 0;
+    font-size: 50px;
+    color:#FFFFFF;
+    text-align: right;
+}
+
+/*=========================
+============ footer ======
+=========================*/
+
+
+.footer{
+    background: #2C2C2C;
+    
+}
+.footer_menu .nav-item a{
+    color: white;
+    padding: 1px;
+    font-weight:bold;    
+}
+
+.footer_logo{
+    text-align: left;
+}
+
+
+
+
+/*=======================================================
+=========================================================
+====================================media query==========
+==========================================================*/
+
+/*=================================
+================for mobile==========
+==================================*/
+
+@media screen and (max-width: 767px) and (min-width: 320px){
+
+    html,body{
+        overflow-x: hidden;
+    }
+ /*==========================
+========= Header Section ===========
+============================*/
+.header_li ul{
+    display: block;
+    background-color: black;
+}
+.nav_list .header_hover_bottom_menu a {
+    color: white;
+    float: left;
+}
+
+.social_network i{
+    font-size: 25px;
+    padding: 4px;
+}
+
+.date{
+    font-size: 10px;
+}
+.header_logo{
+    text-align: center;
+}
+.header_right {
+    text-align: center;
+}
+.header_right a{
+    font-size: 12px;
+}
+.header_left{
+    text-align: center;
+}
+
+.footer_logo{
+    text-align: center;
+}
+.footer_menu{
+    font-size: 12px;
+}
+.footer_menu p{
+    font-size: 12px;
+}
+.developed{
+    text-align: right;
+}
+
+.cam_icon {
+    top: 0;
+    font-size: 30px;
+    color:#FFFFFF;
+   
+}
+
+}
+
+/*=================================
+================for tablet==========
+==================================*/
+
+
+@media screen and (max-width: 1023px) and (min-width: 768px){
+    .cam_icon {
+        top: 0;
+        font-size: 20px;
+        color:#FFFFFF;
+       
+    } 
+    .e-paper img{
+        width: 100%;
+        height: auto;
+    }
+
+    .lead_image img{
+        height: 315px;
+    }
+    .live_video i{
+        position: absolute;
+        top: 40%;
+        left: 40%;
+        color: #fff;
+        background:rgb(28, 2, 255);
+        height: 40px;
+        width: 40px;
+        padding: 11px 15px;
+        border-radius: 50%;
+    }
+}
